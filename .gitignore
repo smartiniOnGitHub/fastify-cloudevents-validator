@@ -1,3 +1,38 @@
+# .DS_Store
+.git
+.cache
+.metadata
+.settings
+.vscode
+*.log
+*.iws
+.idea/
+*.iml
+*.md5
+*.sha1
+*~*
+*.bak
+Thumbs.db
+*.db
+*.zip
+*.tar
+*.tar.gz
+_old/
+# bin/
+build/
+dist/
+out/
+private/
+# server/
+# target/
+temp/
+tmp/
+
+
+# Dependency directories
+node_modules
+jspm_packages
+
 # Logs
 logs
 *.log
@@ -20,6 +55,9 @@ coverage
 # nyc test coverage
 .nyc_output
 
+# Clinic analysis/results
+.clinic
+
 # Grunt intermediate storage (http://gruntjs.com/creating-plugins#storing-task-files)
 .grunt
 
@@ -29,18 +67,17 @@ bower_components
 # node-waf configuration
 .lock-wscript
 
-# Compiled binary addons (https://nodejs.org/api/addons.html)
+# Compiled binary addons (http://nodejs.org/api/addons.html)
 build/Release
 
-# Dependency directories
-node_modules/
-jspm_packages/
-
-# TypeScript v1 declaration files
+# Typescript v1 declaration files
 typings/
 
 # Optional npm cache directory
 .npm
+
+# npm 5 dependencies lock file (in general should be committed)
+package-lock.json
 
 # Optional eslint cache
 .eslintcache
@@ -54,8 +91,12 @@ typings/
 # Yarn Integrity file
 .yarn-integrity
 
-# dotenv environment variables file
+# env/dotenv variables file
 .env
+.envrc
 
-# next.js build output
-.next
+# Others
+lib/
+.DS_Store
+._.DS_Store
+
